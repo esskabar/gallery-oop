@@ -1,0 +1,100 @@
+body{
+    background: #000;
+}
+html, body{
+    height:100%;
+    color: #fff;
+}
+.container{
+    min-width: 300px;
+    min-height: 400px;
+    max-width: 640px;
+    background: rgba(255,255,255,0.3);
+    height: 100%;
+}
+.form-load{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+input[type=file]{
+    width: 100%;
+}
+.form-load button{
+    padding: 5px 30px;
+    margin-top: 20px;
+}
+.gallery-block{
+    width: 100%;
+    min-height: 160px;
+}
+.item-galery{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    float: left;
+    position: relative;
+}
+.name-dir{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.add-folder{
+    font-size: 127px;
+    text-align: center;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+}
+.deleteimage{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: red;
+    width: 17px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.build-folder{
+    width: 100%;
+}
+.center{
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+.namefolder{
+    display: none;
+    width: 50%;
+    margin-top: 20px;
+}
+.folder_img{
+    cursor: pointer;
+    -moz-user-select: none;
+    user-select: none;
+}
+.item-name{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+}
+.message {
+    padding: .5em;
+    border-radius: .15em;
+    border: 1px solid;
+    margin: 15px 0;
+}
+.message-valid {
+    color: #468847;
+    background: #b6dab7;
+    border-color: #7aba7b;
+}
+.message-error {
+    color: #b94a48;
+    background: #efd5d4;
+    border-color: #d59392;
+}
